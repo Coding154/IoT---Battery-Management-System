@@ -44,7 +44,7 @@ To maintain clean, scalable, and modular code, the project is divided into disti
 ##  IoT Dashboard Preview
 
 Normal Operation State:
-![Normal Dashboard](dashboard%201.png)
+![Normal Dashboard](dashboard%201%20.png)
 
 Critical Fault State (Simulated Cell Failure):
 ![Fault Dashboard](Dashboard%202.png)
