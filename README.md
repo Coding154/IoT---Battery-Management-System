@@ -29,7 +29,7 @@ To maintain clean, scalable, and modular code, the project is divided into disti
 * `HMI_Display.h`: LCD screen routing and fault-screen overrides.
 * `Telemetry.h`: Asynchronous Blynk cloud communication payload construction.
 
-## ⚙️ How to Run & Test
+##  How to Run & Test
 1. Open the https://wokwi.com/projects/469371232388349953 
 2. Start the simulation. The system will boot and connect to the Wokwi-GUEST WiFi.
 3. Observe the LCD rotating through normal operational screens.
@@ -40,3 +40,11 @@ To maintain clean, scalable, and modular code, the project is divided into disti
    * The buzzer sounds a pulsating 1000Hz alarm.
    * The Serial Monitor logs a "Cloud Sync" anomaly.
    * The Blynk Cloud Dashboard updates the gauges and status LED in real-time.
+  
+##  IoT Dashboard Preview
+
+Normal Operation State:
+[Normal Dashboard](dashboard_1.png)
+
+Critical Fault State (Simulated Cell Failure):
+[Fault Dashboard](Dashboard_2.png)
